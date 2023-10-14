@@ -53,7 +53,9 @@ a,b=leastRegLine(X, Y, n)
 for i in range(len(X)):
   Y[i]=a+b*X[i]
   print("%.3f"%Y[i])
+
 ## B - POLYNOMIAL REGRESSION:
+
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
